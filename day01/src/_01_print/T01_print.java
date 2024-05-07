@@ -1,4 +1,5 @@
-package day01;
+package _01_print;
+
 
 public class T01_print {
 	public static void main(String[] args) {
@@ -14,8 +15,5 @@ public class T01_print {
 		System.out.println("전찬우입니다"+5*3+"강의실 801호");
 		System.out.println("전찬우입니다"+5*3+"강의실 801호"+(5+8));
 		System.out.println("전찬우입니다"+5*3+"강의실 801호"+5*8);
-
-	}
-	
-
+}
 }
