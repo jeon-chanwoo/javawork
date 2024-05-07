@@ -16,6 +16,10 @@ public class T01_Scanner {
 		System.out.println("남자인가");
 		boolean gender = sc1.nextBoolean();
 		
+		System.out.println("주소입력하시오");
+		String address = sc1.nextLine();//글자수 하나만 가지고 오고싶으면 .charAt(0);<-char에서만 가능 string 안됨
+		
+		
 	}
 	
 	
