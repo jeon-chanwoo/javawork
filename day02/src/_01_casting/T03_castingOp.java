@@ -26,6 +26,10 @@ public class T03_castingOp {
 		double dou2 = 3;
 		double result4 = num1/ dou2;
 		System.out.println(result4);
+		
+		double re = (double)num1/num2;
+		re = num1/(double)num2;
+		
 	}
 
 }
