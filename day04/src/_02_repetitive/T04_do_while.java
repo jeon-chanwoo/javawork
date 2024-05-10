@@ -3,7 +3,7 @@ package _02_repetitive;
 
 import java.util.Scanner;
 
-public class T03_while {
+public class T04_do_while {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
