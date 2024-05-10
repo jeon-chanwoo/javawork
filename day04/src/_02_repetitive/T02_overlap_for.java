@@ -2,7 +2,7 @@ package _02_repetitive;
 
 import java.util.Scanner;
 
-public class T01_for {
+public class T02_overlap_for {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
