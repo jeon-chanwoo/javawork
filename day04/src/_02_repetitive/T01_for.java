@@ -14,6 +14,12 @@ public class T01_for {
 				System.out.println(i);			
 		else
 			System.out.println("1이상의 숫자가 아닙니다.");
+		
+		System.out.println("1~100까지의 합");
+		int sum=0;
+		for(int i=1;i<=100;i++)
+			sum+=i;
+		System.out.println(sum);
 	}
 
 }
