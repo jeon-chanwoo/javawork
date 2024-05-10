@@ -20,6 +20,15 @@ public class T02_overlap_for {
 		for (int i = 1; i <= 100; i++)
 			sum += i;
 		System.out.println(sum);
+		
+		System.out.println("1이상의 숫자를 입력해 주세요");
+		int num2 = sc1.nextInt();
+		for (int i = 1; i <= num2; i++) {
+			for (int j = 1; j <= i; j++)
+				System.out.print("*");
+			System.out.println();
+		}
+		
 	}
 
 }
