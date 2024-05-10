@@ -22,15 +22,16 @@ public class T02_overlap_for {
 			}
 			i++;
 		}
-		
-		j=5;
+		System.out.printf("\n");
+		j=6;
+		i=1;
 		while(i<=9) {
 			while(j<=9) {
 				System.out.printf("%d * %d = %d \t",j,i,i*j);
 				j++;
 				if(j==10) {
 					System.out.printf("\n");
-					j=5;
+					j=6;
 					break;
 				}
 			}
