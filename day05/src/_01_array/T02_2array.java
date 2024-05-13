@@ -2,7 +2,7 @@ package _01_array;
 
 import java.util.Scanner;
 
-public class T01_1array {
+public class T02_2array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
