@@ -24,6 +24,8 @@ public class T06_upfor {
 		
 		System.arraycopy(str1, 0, str2, 4, 2);
 		System.out.print(Arrays.toString(str2));
+		
+		
 	}
 	
 }
