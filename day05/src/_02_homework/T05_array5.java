@@ -13,7 +13,6 @@ public class T05_array5 {
 		//문자 입력
 		char ch1 = sc1.next().charAt(0);
 		//문자열 길이
-		int num1 = str1.length();
 		int num2 = 0;
 		int num3 = 0;
 		
