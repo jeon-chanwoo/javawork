@@ -20,8 +20,7 @@ public class T05_array5 {
 		for(int i=0;i<str1.length();i++) {
 			num3+=1;
 			if(str1.charAt(i) == ch1) {
-				System.out.println();
-				System.out.print(num3-1);
+				System.out.print(num3-1+"\t");
 				num2+=1;
 			}
 		}
