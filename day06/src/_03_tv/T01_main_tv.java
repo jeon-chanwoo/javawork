@@ -12,7 +12,7 @@ public class T01_main_tv {
 		
 		
 		tv1.power();
-		System.out.println("전원 : "+tv1.power);
+		//System.out.println("전원 : "+tv1.power);
 		System.out.println("현재 채널 : "+tv1.channelUp());
 		System.out.println("현재 채널 : "+tv1.channelUp());
 		System.out.println("현재 채널 : "+tv1.channelUp());
@@ -20,7 +20,7 @@ public class T01_main_tv {
 		System.out.println("현재 채널 : "+tv1.channelDown());
 		System.out.println("음량변경 : "+tv1.vol(12));
 		tv1.power();
-		System.out.println("전원 : "+tv1.power);
+		//System.out.println("전원 : "+tv1.power);
 		
 	}
 
