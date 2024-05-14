@@ -16,7 +16,14 @@ public class T06_upfor {
 		int[] newScore = new int[10];
 		
 		System.arraycopy(oldScore, 0, newScore, 0, oldScore.length);
-		System.out.print(Arrays.toString(newScore));
+		System.out.print(Arrays.toString(newScore)+"\n");
+	
+		//문자열 배열 3
+		String[] str1 = {"안녕","나는","찬우야"};
+		String[] str2 = new String[10];
+		
+		System.arraycopy(str1, 0, str2, 4, 2);
+		System.out.print(Arrays.toString(str2));
 	}
-
+	
 }
