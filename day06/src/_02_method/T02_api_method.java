@@ -15,7 +15,7 @@ public class T02_api_method {
 	}
 	double div(int a,int b) {
 	
-	return a/b;
+	return (double)a/b;
 	}
 	int rem(int a,int b) {
 	
