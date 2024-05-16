@@ -1,27 +1,28 @@
 package _02_overloading;
 
 
-class Aaa{
+class ThisAaa{
 	int num;
 	double dou;
 	String str;
 	
-	Aaa(){
+	ThisAaa(){
+		this(1,1.0,"전찬우");
 		num =1;
 		dou = 1.0;
 		str = "전찬우";
 	}
-	Aaa(int num1){
+	ThisAaa(int num1){
 		this.num = num1;
 		dou = 1.0;
 		str = "전찬우";
 	}
-	Aaa(int num1, double num2){
+	ThisAaa(int num1, double num2){
 		this.num = num1;
 		this.dou = num2;
 		str = "전찬우";
 	}
-	Aaa(int num1, double num2,String name){
+	ThisAaa(int num1, double num2,String name){
 		this.num = num1;
 		this.dou = num2;
 		this.str = name;
@@ -29,14 +30,14 @@ class Aaa{
 }
 
 
-public class T02_main_ConOverloading {
+public class T03_main_ThisConOverloading {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 Aaa a1= new Aaa();
-		 Aaa a2= new Aaa(1);
-		 Aaa a3= new Aaa(1,1.2);
-		 Aaa a4= new Aaa(1,1.2,"aaa");
+		 ThisAaa a1= new ThisAaa();
+		 ThisAaa a2= new ThisAaa(1);
+		 ThisAaa a3= new ThisAaa(1,1.2);
+		 ThisAaa a4= new ThisAaa(1,1.2,"ThisAaa");
 		
 		System.out.println(a1.dou);
 		System.out.println(a2.dou);
