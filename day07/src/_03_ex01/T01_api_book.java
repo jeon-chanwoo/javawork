@@ -1,4 +1,4 @@
-package _04_ex01;
+package _03_ex01;
 
 public class T01_api_book {
 
@@ -7,6 +7,7 @@ public class T01_api_book {
 	int price;
 
 	T01_api_book() {
+		//this("자바", 12345, 45000);
 		this.bookName = "자바";
 		this.ISBN = 12345;
 		this.price = 45000;
