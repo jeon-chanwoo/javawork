@@ -1,17 +1,17 @@
-package _01_polymorphosm;
+package _02_abstract;
 
-public class Pet {
+abstract public class Pet {
 	private
 		String kind;
 		String color;
+		
 	
 	Pet(String kind, String color){
 		this.kind=kind;
 		this.color=color;
 	}
 	
-	void sound() {
-	}
+	abstract void sound() ;
 	void pattern() {
 	}
 	String getKind(){

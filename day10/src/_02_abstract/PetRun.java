@@ -1,4 +1,4 @@
-package _01_polymorphosm;
+package _02_abstract;
 
 public class PetRun {
 
