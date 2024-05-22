@@ -3,20 +3,15 @@ package _06_sub;
 import java.util.ArrayList;
 
 public class LibraryController {
-	Member mem1 = new Member();
 	ArrayList<Book> aList = new ArrayList<Book>();
 	
-	LibraryController(){
-		this.mem1 = new Member();
-		mem1.name = "전찬우";
-		mem1.age = 29;
-		mem1.gender= "남";
+	LibraryController(Member m){
 	}
 	
-	void info() {
-		System.out.println("이름 : "+mem1.name);
-		System.out.println("나이 : "+mem1.age);
-		System.out.println("성별  : "+mem1.gender);
+	void info(Member m) {
+		System.out.println("이름 : "+m.name);
+		System.out.println("나이 : "+m.age);
+		System.out.println("성별  : "+m.gender);
 	}
 	
 	void insertBook(Book b) {

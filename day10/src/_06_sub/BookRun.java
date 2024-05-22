@@ -6,7 +6,7 @@ public class BookRun {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LibraryController lc = new LibraryController();
+		LibraryController lc = new LibraryController(new Member("아",18,"집가고싶다"));
 		
 		lc.insertBook(new Book("제목1","저자1","출판사1"));
 		lc.insertBook(new Book("제목2","저자2","출판사2"));
