@@ -21,6 +21,7 @@ public class TestMain {
 		System.out.println(p.method());
 
 		// 클래스에 들어가는 것을 재정의 한다.
+		// 익명 클래스 : 재사용할 필요가 없을 때 1번만 정의하여 사용
 		Parent p2 = new Child() {
 			int age = 25;
 			@Override
