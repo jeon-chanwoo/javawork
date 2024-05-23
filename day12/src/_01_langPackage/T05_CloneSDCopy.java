@@ -104,6 +104,14 @@ public class T05_CloneSDCopy {
 		c1.p.x = 1000;
 		System.out.println(c1);
 		System.out.println(c3);
+		
+		//배열에서의 클론
+		
+		int[] num = {1,2,3};
+		int [] numClone = num.clone();
+		numClone[0] = 100;
+		System.out.println(Arrays.toString(num));
+		System.out.println(Arrays.toString(numClone));
 	}
 
 }
