@@ -36,6 +36,9 @@ public class T03_Math {
 		double ran2 = Math.round(ran);
 		System.out.println(ran2/100);
 		
+		System.out.println(Math.pow(5,3));
+		System.out.println(Math.sqrt(25));
+		
 		
 		
 		
