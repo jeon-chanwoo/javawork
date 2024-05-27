@@ -4,16 +4,26 @@ public class T02_wrapper_ex {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Integer i =Integer.valueOf(305);
-		Integer i2 =Integer.valueOf(100);
-		//비교해서 같으면 0 
-		//문자열이면 사전순의 반대 1
-		//문자열의 사전순일때 -1
-		System.out.println(i.compareTo(i2));
-		System.out.println(Integer.MAX_VALUE);
-		System.out.println(Integer.SIZE);
-		System.out.println(Integer.BYTES);
-		System.out.println(Integer.TYPE);
+		//valueOf() : Integer객체에서 int형 갓을 뽑아내는 메소드
+		//int->언박싱->int
+		//언박싱 : 참조자료형-> 기본자료형
+		//박싱 : 기본자료형-> 참조자료형
+		
+		Integer num = Integer.valueOf(100);
+		int num1 = num;
+		
+		Character ch = Character.valueOf('1');
+		char c =ch;
+		
+		Integer num2 = Integer.parseInt("100");
+		Integer num3 = Integer.valueOf("100");
+		
+		int num4 = 10;
+		Integer num5 = Integer.valueOf(num4);
+		
+		
+		
+		
 	}
 
 }
