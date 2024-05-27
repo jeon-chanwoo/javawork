@@ -2,7 +2,7 @@ package _03_calender_date;
 
 import java.util.Calendar;
 
-public class T02_calendar_set {
+public class T03_calendar_oper {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,12 +10,8 @@ public class T02_calendar_set {
 
 		Calendar date1 = Calendar.getInstance();
 		
-		date1.set(2024,12,7);
-		
-		System.out.println("월 : "+ date1.get(Calendar.MONTH));
-		
-		date1.set(Calendar.MONTH, Calendar.MAY);
-		System.out.println(date1.get(Calendar.MONTH));
+		date1.add(Calendar.DATE, 100);
+		System.out.println((date1.get(Calendar.MONTH)+1)+"월"+date1.get(Calendar.DATE)+"일");
 	}
 
 }
