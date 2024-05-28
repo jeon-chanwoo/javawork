@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 
 public class T03_LocalDateTime {
 
@@ -29,6 +30,12 @@ public class T03_LocalDateTime {
 		
 		Duration duration = Duration.between(startDay, DT);
 		System.out.println(duration.toDays());
+		System.out.println(DT.until(startDay,ChronoUnit.HOURS ));
+
+	
+		System.out.println(DT.plusYears(3).format(dtf));
+		System.out.println(DT.plusMonths(5).format(dtf));
+		System.out.println(DT.plusDays(15).format(dtf));
 	}
 	
 
