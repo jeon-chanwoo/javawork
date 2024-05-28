@@ -30,6 +30,27 @@ public class T03_ArrayList3 {
 		System.out.println(list.retainAll(list2));
 		System.out.println(list.toString());
 		
+		list.clear();
+		list2.clear();
+		for(int i = 0;i<10;i++) {
+			list.add(i+1);
+		}
+		
+		System.out.println(list.toString());
+		
+		list2.add(7);
+		list2.add(3);
+		
+		for(int i = 0;i<list2.size();i++) {
+			for(int j = 0; j<list.size();j++) {
+				if(list2.get(i)==list.get(j)) {
+					list.remove(j);
+				}
+			}
+		}
+		
+		System.out.println(list.toString());
+		System.out.println(list2);
 	}
 
 }
