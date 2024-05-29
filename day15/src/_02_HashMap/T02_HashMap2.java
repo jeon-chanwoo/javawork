@@ -23,14 +23,14 @@ public class T02_HashMap2 {
 				String str2 = sc1.next();
 				if (map.get(str1).equals(str2)) {
 					System.out.println("아이디와 비밀번호가 맞았습니다. 종료합니다.");
-					break;
+					break Loop;
 				} else {
 					System.out.println("비밀번호가 맞지 않습니다.처음으로 이동");
 					continue Loop;
 				}
 			} else {
 				System.out.println("아이디 없다");
-				continue;
+				continue Loop;
 			}
 		}
 	}
