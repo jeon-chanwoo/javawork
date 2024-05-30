@@ -3,10 +3,10 @@ package _04_Sub;
 import java.util.Objects;
 
 public class Book implements Comparable<Book>{
-	 String title;
-	 String author;
-	 String category;
-	 int price;
+	private String title;
+	private String author;
+	private String category;
+	private int price;
 
 	public Book() {
 	}
