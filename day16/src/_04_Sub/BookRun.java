@@ -9,6 +9,7 @@ public class BookRun {
     private Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+    	
         BookRun run = new BookRun();
         run.start();
     }
