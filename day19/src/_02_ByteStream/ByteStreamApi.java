@@ -42,7 +42,7 @@ public class ByteStreamApi {
 			try {
 				int value =0;
 				while ((value = fin.read()) != -1) {
-					System.out.println(value);
+					System.out.println((char)value);
 				}
 
 			} catch (IOException e) {
